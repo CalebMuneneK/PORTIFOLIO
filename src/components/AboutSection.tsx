@@ -1,7 +1,8 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Code2, Palette, Zap, Award, Users, Coffee } from 'lucide-react';
+import { Code2, Palette, Zap, Coffee } from 'lucide-react';
+
 
 const AboutSection = () => {
   const highlights = [
@@ -109,7 +110,7 @@ const AboutSection = () => {
           </div>
 
           <div className="grid gap-6">
-            {highlights.map(({ icon: Icon, title, description }, index) => (
+            {highlights.map(({ icon: Icon, title, description }, ) => (
               <Card
                 key={title}
                 className="glass-effect border-0 hover-lift group"
