@@ -99,8 +99,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "nyangaufredrick443@gmail.com",
-      href: "mailto:nyangaufredrick443@gmail.com",
+      value: "carebmunene3@gmail.com",
+      href: "mailto:carebmunene3@gmail.com",
       description: "Drop me a line anytime",
     },
     {
@@ -134,7 +134,7 @@ const ContactSection = () => {
       description: "Let's discuss your project",
       action: "Start Chat",
       color: "from-green-500 to-emerald-600",
-      href: "https://wa.me/254746730585",
+      href: "https://wa.me/254740630349",
       actionType: "chat",
     },
   ];
@@ -334,7 +334,7 @@ const ContactSection = () => {
           </DialogHeader>
           <div
             className="calendly-inline-widget w-full h-[500px]"
-            data-url="https://calendly.com/nyangaufredrick443/30min"
+            
           ></div>
         </DialogContent>
       </Dialog>

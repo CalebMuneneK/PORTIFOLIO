@@ -3,14 +3,12 @@ import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Modal from "@/components/ui/Modal";
 // import Resume from "@/components/Resume";
-// import { useReactToPrint } from "react-to-print";
+
 
 const HeroSection = () => {
   const [resumeOpen, setResumeOpen] = React.useState(false);
   const resumeRef = useRef<HTMLDivElement>(null);
-// //   const handlePrint = useReactToPrint({
-//     content: () => resumeRef.current,
-//     documentTitle: "Fredrick_Nyangau_Resume",
+
 //   });
 
   const scrollToAbout = () => {
@@ -109,19 +107,19 @@ const HeroSection = () => {
                 {[
                   {
                     src: "/github.png",
-                    href: "https://github.com/fredricknyangau",
+                    href: "https://github.com/calebmunenek",
                     label: "GitHub",
                     color: "hover:bg-gray-900 hover:text-white",
                   },
                   {
                     src: "/linkedin.png",
-                    href: "https://linkedin.com/in/fredrick-nyang-au-857b75233",
+                    href: "https://www.linkedin.com/in/caleb-munene-769734249",
                     label: "LinkedIn",
                     color: "hover:bg-blue-600 hover:text-white",
                   },
                   {
                     src: "/mail.jpg",
-                    href: "mailto:nyangaufredrick443@gmail.com",
+                    href: "mailto:carebmunene3@gmail.com",
                     label: "Email",
                     color: "hover:bg-red-500 hover:text-white",
                   },

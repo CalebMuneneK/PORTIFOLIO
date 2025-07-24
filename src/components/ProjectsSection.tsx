@@ -8,10 +8,10 @@ import { Github, ExternalLink, Eye, Star } from 'lucide-react';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "AfriSound",
+      title: "Employee Management System",
       description:
-        "AfriSound is an interactive digital archive dedicated to preserving and exploring traditional African musical instruments. Built with modern web technologies, it features a searchable database, region-based filtering, media-rich entries with Cloudinary-hosted images, audio, and video, as well as educational tools like quizzes, timelines, and multilingual glossaries. Users can contribute via a secure contributor dashboard, powered by TanStack Query v5 for seamless data handling.",
-      image: "/afrisound.png",
+        "A web-based application designed to streamline HR operations by managing employee records, attendance, roles, and performance tracking. Features include user authentication, CRUD operations for employee data, role-based access control, and real-time reporting dashboards to enhance organizational efficiency.",
+      image: "/",
       tags: [
         "React",
         "Node.js",
@@ -22,11 +22,9 @@ const ProjectsSection = () => {
         "TanStack Query",
         "Cloudinary",
       ],
-      githubUrl:
-        "https://github.com/fredricknyangau/African-Music-Instruments-Archive",
-      liveUrl: "https://afrisound.vercel.app",
+      
       featured: true,
-      status: "Live",
+     
       metrics: { stars: 247, forks: 89 },
     },
     //{
@@ -278,7 +276,7 @@ const ProjectsSection = () => {
               className="bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90"
             >
               <a
-                href="https://github.com/fredricknyangau"
+                href="https://github.com/calebmunenek"
                 className="flex items-center gap-2"
               >
                 <Github size={20} />
